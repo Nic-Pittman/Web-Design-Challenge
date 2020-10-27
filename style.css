@@ -1,0 +1,94 @@
+  
+html {
+    /* Positioning */
+    position: relative;
+    min-height: 100%;
+} 
+
+/* Body */
+body{
+    background-color: rgb(212, 209, 209); 
+}
+
+.navbar{
+    font-size: 15px;
+    max-height: 46px; 
+}
+
+.nav-link:hover{
+    background-color:#e6dcdc;
+}
+
+.navbar-brand{
+    font-family: 'Bookman Old Style';
+    padding: inherit;
+    margin-left: 10px; 
+    font-weight: bold; 
+    background-color: #019e96;
+}
+
+.navbar-brand:hover{
+    color: rgb(161, 153, 153);
+}
+
+/* Titles  */
+.title{
+    color: #019e96;  
+    font-family: 'Bookman Old Style'; 
+    padding-top: 20px; 
+    font-size: 28px;
+}
+
+/* Boxes */
+.box {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    padding: 20px 30px 25px; 
+    background-color: white; 
+}
+
+/* Text */
+p{
+    color: #637485;
+    font-family: 'Arial';
+    font-size: 15px; 
+}
+
+/* Images */
+/* visualization box images */
+img{
+    width:100%;
+    height:100%; 
+}
+
+/* summary box image */
+.vizualization{
+    width:48%;
+    height:100%;
+}
+
+.panel:hover{ 
+    border-style: solid;
+    border-color:#019e96;
+}
+
+
+/* Media Queries */
+@media(max-width: 1100px){
+    .navbar-expand-lg{
+    background-color: #019e96;
+}
+
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+}
+
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+}
+
+   .navbar-brand{
+        padding: 10px;
+        width: 100%;}
